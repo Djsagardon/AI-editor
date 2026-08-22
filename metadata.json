@@ -1,0 +1,7 @@
+{
+  "name": "NOVA AI",
+  "description": "Full-Stack Personal AI Agent & Creative Studio with Multilingual Chat, Image Generation & Studio Editor",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

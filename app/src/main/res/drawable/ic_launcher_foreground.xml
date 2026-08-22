@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Center AI Sparkle / Nova Core -->
+    <!-- Star 4-point dynamic core -->
+    <path
+        android:pathData="M54,26 C54,41 41,54 26,54 C41,54 54,67 54,82 C54,67 67,54 82,54 C67,54 54,41 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:color="#00F0FF" android:offset="0.0" />
+                <item android:color="#7000FF" android:offset="0.6" />
+                <item android:color="#FF007A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Secondary small sparkle top right -->
+    <path
+        android:pathData="M78,30 C78,36 73,40 67,40 C73,40 78,44 78,50 C78,44 83,40 89,40 C83,40 78,36 78,30 Z"
+        android:fillColor="#00F0FF" />
+    <!-- Secondary small sparkle bottom left -->
+    <path
+        android:pathData="M32,68 C32,73 28,77 23,77 C28,77 32,81 32,86 C32,81 36,77 41,77 C36,77 32,73 32,68 Z"
+        android:fillColor="#FF007A" />
+    <!-- Center glowing nucleus -->
+    <path
+        android:pathData="M54,54m-6,0a6,6 0 1,1 12,0a6,6 0 1,1 -12,0"
+        android:fillColor="#FFFFFF" />
+</vector>
+
